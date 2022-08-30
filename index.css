@@ -1,0 +1,19 @@
+.box{
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    box-shadow: 100px 100px 10px gray,
+                -100px 100px 10px yellow,
+                100px -100px 10px green,
+                -100px -100px 10px blue;
+    transition: 1s;
+}
+.box:hover{
+    border-radius: 100px;
+    box-shadow: -100px 100px 10px gray,
+                -100px -100px 10px yellow,
+                100px 100px 10px green,
+                100px -100px 10px blue;
+}
